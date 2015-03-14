@@ -1,0 +1,153 @@
+﻿/* définition des polices personnalisée */
+
+@font-face 
+{
+    font-family: 'questa_granderegular';
+    src: url('2-Questa_Grande_Regular-webfont.eot');
+    src: url('2-Questa_Grande_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('2-Questa_Grande_Regular-webfont.woff2') format('woff2'),
+         url('2-Questa_Grande_Regular-webfont.woff') format('woff'),
+         url('2-Questa_Grande_Regular-webfont.ttf') format('truetype'),
+         url('2-Questa_Grande_Regular-webfont.svg#questa_granderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Elements principaux de la page */
+
+body
+{
+	Background: url('background/black_textures_background 4.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'questa_granderegular', Arial , sans-serif;
+	color: #F8F8A5;	
+}
+
+#bloc_page
+{
+	width 900px;
+	margin: auto;
+}
+
+section h1, nav a 
+{
+	font-family: 'questa_granderegular', Arial , sans-serif;
+	font-weight: medium;
+	color: bd581e;
+	text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+	background: url('logo/separateur.png') repeat-x bottom;
+}
+
+#logo, header h1
+{
+	Display: inline-block;
+	margin-bottom: 0px;
+}
+
+/* Navigation */
+
+nav
+{
+	display: inline-block;
+	width: 1100px;
+	text-align: right;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	Display: inline-block;
+	margin-bottom: 10px;
+}
+
+nav a
+{
+	font-size: 1.3en;
+	color: #bd581e;
+	padding-buttom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #F8F8A5;
+	border-buttom: 3px solid #F8F8A5;
+}
+
+/* corps */
+
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 75px;
+	text-align: justify;
+}
+
+article
+{
+	width: 625px;
+	margin-right: 100px;
+}
+
+.icc_categorie
+{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+article p 
+{
+	front-size: small;
+}
+
+aside
+{
+	position: relative;
+	width: 200px;
+	background-color: #0A0705;
+	opacity: 0.8;
+	box-shadow: 2px 2px 4px #bd581e;
+	border-radius: 5px;
+	padding: 10px;
+	color: #F8F8A5;
+	font-size: 12px;
+}
+
+
+
+#photo_michelk
+{
+	text-align: center;
+}
+
+#photo_michelk img
+{
+	border: 1px solid #000000;
+}
+
+aside img
+{
+margin-right: 5px;
+}
+
+/* Footer */
+
+footer h1
+{
+	font-family: 'questa_granderegular', Arial , sans-serif;
+	font-weight: 12px;
+	color: bd581e;
+	text-transform: uppercase;
+}
